@@ -4,11 +4,11 @@
 
 This is a simple Rock, Paper, Scissors game implemented using vanilla JavaScript, HTML, and CSS.
 
-![Rock, Paper, Scissors game screenshot](rock-paper-scissors.png)
+![Rock, Paper, Scissors game screenshot](./src/assets/rock-paper-scissors.png)
 
 ## How to Play
 
-1. Open the `index.html` file in your web browser. //change to link
+1. Open the https://game-rps.vercel.app/
 2. Choose your move by clicking one of the three icons: Rock, Paper, or Scissors.
 3. The computer will randomly select its move.
 4. The result of the round will be displayed on the screen.
