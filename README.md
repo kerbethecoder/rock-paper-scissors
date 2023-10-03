@@ -1,5 +1,7 @@
 # Rock, Paper, Scissors :video_game:
 
+![Static Badge](https://img.shields.io/badge/success-green?logo=Vercel&label=vercel&labelColor=%231A1A1A)
+
 ---
 
 This is a simple Rock, Paper, Scissors game implemented using vanilla JavaScript, HTML, and CSS.
