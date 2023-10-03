@@ -8,7 +8,7 @@ This is a simple Rock, Paper, Scissors game implemented using vanilla JavaScript
 
 ## How to Play
 
-1. Open the `index.html` file in your web browser.
+1. Open the `index.html` file in your web browser. //change to link
 2. Choose your move by clicking one of the three icons: Rock, Paper, or Scissors.
 3. The computer will randomly select its move.
 4. The result of the round will be displayed on the screen.
@@ -47,6 +47,17 @@ git clone https://github.com/kerbethecoder/rock-paper-scissors.git
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Credits
+
+Game icons and images were created by
+
+- <a href="https://www.freepik.com/icon/punch_6142258#fromView=resource_detail&position=9">Icon by photo3idea_studio</a>
+- <a href="https://www.freepik.com/icon/victory_6142275#fromView=resource_detail&position=2">Icon by photo3idea_studio</a>
+- <a href="https://www.freepik.com/icon/raise-hand_6142099#fromView=resource_detail&position=15">Icon by photo3idea_studio</a>
+- <a href="https://www.freepik.com/icons/rock-paper-scissors">Icon by Freepik</a>
+
+I greatly appreciate the talented individuals who contributed their work to make this game possible.
 
 ## Author
 

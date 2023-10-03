@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/rsp-logo.png" type="image/svg+xml" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <h1 class="header__title">Rock, Paper, Scissors!</h1>
+      </div>
+
+      <div class="hero">
+        <div class="hero__content-container" id="gameContainer">
+          <p class="hero__content-heading">First to 5, wins! Good Luck!</p>
+          <p class="hero__content-subheading" id="result">
+            Rock, Paper, or Scissors? What is it gonna be?
+          </p>
+          <div class="hero__content-sections">
+            <div style="text-align: center">
+              <div class="option-title" id="computerChoice">?</div>
+              <div class="option-img" id="computerChoiceImg"></div>
+              <div class="score-display" id="computerScore"></div>
+            </div>
+
+            <div style="text-align: center">
+              <div class="option-title" id="playerChoice">?</div>
+              <div class="option-img" id="playerChoiceImg"></div>
+              <div class="score-display" id="playerScore"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__icons">
+          <img
+            src="../assets/rock.png"
+            alt="rock"
+            class="game-icon"
+            id="rock"
+          />
+          <img
+            src="../assets/paper.png"
+            alt="paper"
+            class="game-icon"
+            id="paper"
+          />
+          <img
+            src="../assets/scissors.png"
+            alt="scissors"
+            class="game-icon"
+            id="scissors"
+          />
+        </div>
+      </div>
+
+      <div class="modal" id="modal">
+        <div class="modal__content">
+          <h2 class="modal__title" id="modalTitle">Play Again?</h2>
+          <button class="custom-button" id="restartBtn">Restart</button>
+        </div>
+      </div>
+
+      <div class="about">
+        <p class="about__body">
+          Rock, Paper, Scissors, is one of the projects that the developer work
+          on in his web developer journey. Its sole purpose is to enhance his
+          abilities and skills with certain programming languages needed in his
+          field through the help of creating a simple game. This is made with
+          vanilla HTML, CSS, and JavaScript. If you want the source code or
+          contact the developer, refer to the following links below:
+        </p>
+        <div class="about__socials">
+          <p>@kerbethecoder |</p>
+          <a
+            href="https://www.linkedin.com/in/kerby-cantos-0b0738240/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ion-icon name="logo-linkedin" size="large"></ion-icon>
+          </a>
+          <a
+            href="https://github.com/kerbethecoder"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ion-icon name="logo-github" size="large"></ion-icon>
+          </a>
+          <a
+            href="https://www.facebook.com/kerbe.cantos"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ion-icon name="logo-facebook" size="large"></ion-icon>
+          </a>
+          <a
+            href="https://www.instagram.com/krby.cnts"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ion-icon name="logo-instagram" size="large"></ion-icon>
+          </a>
+          <p>| krby.cnts@gmail.com</p>
+        </div>
+      </div>
+    </main>
+
+    <script src="./index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
