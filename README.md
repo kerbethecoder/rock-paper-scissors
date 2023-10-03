@@ -63,8 +63,8 @@ I greatly appreciate the talented individuals who contributed their work to make
 
 ## Author
 
-🚀 [kerbethecoder](https://github.com/kerbethecoder)
-📫 krby.cnts@gmail.com
-📌 September 10, 2023
-
+🚀 [kerbethecoder](https://github.com/kerbethecoder)     
+📫 krby.cnts@gmail.com    
+📌 September 10, 2023     
+ 
 Happy coding! :philippines:
